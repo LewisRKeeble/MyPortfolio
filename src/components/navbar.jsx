@@ -1,10 +1,23 @@
 import React from "react";
 import { Link } from "react-scroll";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { useState } from "react";
 
 export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+  const [burger, rotateBurger] = useState(false);
+  const toggleMenu = () => {
+    setIsOpen((open) => !open);
+    rotateBurger((rotate) => !rotate);
+  };
+
   return (
     <navbar className="navbar">
-      <div className="navtext">
+      <GiHamburgerMenu
+        className={`hamburger ${burger ? "rotate" : ""}`}
+        onClick={toggleMenu}
+      />
+      <div className={`navtext ${isOpen ? "open" : ""}`}>
         <Link
           className="nav"
           to="about"
@@ -35,6 +48,8 @@ export default function Navbar() {
         >
           Contact Me
         </Link>
+      </div>
+      <div className="burger-menu">
       </div>
     </navbar>
   );

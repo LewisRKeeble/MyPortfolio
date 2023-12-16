@@ -18,13 +18,13 @@ export default function Hero() {
       <div className="hero">
         <div className="hero-text">
           <h2 className="intro">
-            Hello There!{" "}
+            Hello there!{" "}
             <span>
               <img className="hand" src={handwaving}></img>
             </span>
           </h2>
           <h1 className="main-text">
-            My name is Lewis <span className="surname">Keeble</span>
+            My name is Lewis Keeble
           </h1>
           <p className="animated-hero">
             {" "}
@@ -47,9 +47,9 @@ export default function Hero() {
             </button>
           </div>
           <div className="skills">
-            <p>Tech Stack</p>
+            <p className="skills-name">Tech Stack</p>
             <div className="logo-container">
-              <ul className="logos">
+              <div className="logos">
                 <li className="logo-icons">
                   <img
                     src="https://skillicons.dev/icons?i=html"
@@ -106,7 +106,7 @@ export default function Hero() {
                   />
                   <p className="logo-text">PostgreSQL</p>
                 </li>
-              </ul>
+              </div>
             </div>
           </div>
         </div>

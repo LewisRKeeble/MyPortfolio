@@ -11,16 +11,29 @@ export default function About() {
         <div className="about-me">
           <h1 className="about-title">About me!</h1>
           <p className="about-para">
-            Hello! My name is Lewis and I am a full stack developer. I have
-            worked in construction as a electrician since the age of 16. I am
-            now a full qualified electrician with many qualifications such as,
-            NVQ Level 3, AM2, 18th Edition, ECS gold card.
+            Hello, I'm Lewis Keeble, a passionate and driven junior software
+            developer with a relentless curiosity for technology and a deep
+            commitment to creating innovative solutions. I hold a foundation in key programming languages such
+            as: HTML, CSS, JavaScript, React, Next.js, Node.js, PostgreSQL and I
+            am always eager to expand my skill set to stay current with the
+            ever-evolving tech landscape.
             <br /> <br />
-            In 2023 I found software development and instantly knew this is a
-            role i wanted to pursue. Since then in have done courses and
-            projects in my spare time to build up my knowledge and my portfolio.
-            In the process I have picked up many skills and languages and hope
-            this portfolio displays what I can do.
+            In addition to technical skills, I prioritize effective
+            communication and adaptability. I believe in the power of teamwork
+            and am always eager to contribute my skills and learn from others.
+            <br />
+            <br />
+            Before starting my journey in software development I worked in
+            construction as an electrician, which i started at the age of 16.
+            Through my years in construction I also gained many qualifications
+            to become a fully qualified, ECS gold card, electrician.
+            Construction also taught me many valuable skills as a person which i
+            believe will be valuable through my development career.
+            <br />
+            <br />
+            Thank you for visiting my portfolio, and I look forward to the
+            possibility of working together on exciting ventures in the world of
+            software development.
           </p>
         </div>
       </div>
