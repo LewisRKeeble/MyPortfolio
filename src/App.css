@@ -462,7 +462,7 @@ footer h3 {
     text-align: center;
   }
   #about{
-    height: auto;
+    height: 110vh;
   }
    .about-para{
     font-size: 0.9rem;
@@ -470,6 +470,9 @@ footer h3 {
   }
   .about-title{
     font-size: 1.5rem;
+  }
+  #projects{
+    margin-top: 20px;
   }
 
   
