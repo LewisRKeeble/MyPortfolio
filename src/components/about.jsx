@@ -29,11 +29,7 @@ export default function About() {
             to become a fully qualified, ECS gold card, electrician.
             Construction also taught me many valuable skills as a person which i
             believe will be valuable through my development career.
-            <br />
-            <br />
-            Thank you for visiting my portfolio, and I look forward to the
-            possibility of working together on exciting ventures in the world of
-            software development.
+            
           </p>
         </div>
       </div>
